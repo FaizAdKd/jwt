@@ -130,7 +130,7 @@ class JwtRsKeyType extends KeyTypeBase implements KeyPluginFormInterface {
    */
   protected static function getAlgorithmKeysize() {
     return [
-      'RS256' => 2048,
+      'RS256' => 512,
     ];
   }
 
