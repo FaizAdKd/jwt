@@ -116,5 +116,9 @@ class JwtHsKeyType extends KeyTypeBase implements KeyPluginFormInterface {
       'HS512' => 1024,
     ];
   }
+  public function aa()
+  {
+    echo 2;
+  }
 
 }
